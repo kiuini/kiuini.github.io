@@ -11,6 +11,7 @@ $(document).ready(function() {
     scrollPerPage : false,
     autoHeight : false,
     pagination : false,
+    lazyEffect: true,
   });
 
 });
