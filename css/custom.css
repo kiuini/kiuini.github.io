@@ -1,3 +1,10 @@
+.cssbox_thumb.alt{
+  position: relative;
+  float: left;
+  height: 16em;
+  width: 16em;
+  margin: 0.2em;
+}
 .cssbox_thumb{
   position: relative;
   float: left;
