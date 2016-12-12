@@ -1,6 +1,6 @@
 $(function () {
   Highcharts.setOptions({
-    colors: ['#67BCE6'],
+    colors: ['#eef'],
     chart: {
         style: {
             fontFamily: 'sans-serif',
@@ -11,7 +11,7 @@ $(function () {
   $('#container').highcharts({
         chart: {
             type: 'column',
-            backgroundColor: '#36394B'
+            backgroundColor: '#339'
         },
         title: {
             text: 'Mean Score',
