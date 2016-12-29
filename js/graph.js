@@ -7,7 +7,7 @@ $(function () {
             color: '#fff'
         }
     }
-});
+  });
   $('#container').highcharts({
         chart: {
             type: 'column',
