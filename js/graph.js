@@ -20,6 +20,12 @@ $(function () {
             }
         },
         xAxis: {
+            title: {
+                 text: 'Year/ No of Candidates',
+                 style: {
+                   color: '#fff'
+                  }
+             },
             tickWidth: 0,
             labels: {
               style: {
@@ -40,11 +46,12 @@ $(function () {
             ]
         },
         yAxis: {
-           gridLineWidth: .5,
+          min: 0, max: 500,
+          gridLineWidth: .5,
 		      gridLineDashStyle: 'dash',
 		      gridLineColor: 'black',
            title: {
-                text: '',
+                text: 'Mean score',
                 style: {
                   color: '#fff'
                  }
