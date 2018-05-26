@@ -189,7 +189,7 @@ h4{
 .bigImage{
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:center;
+  background-position:50% 80%;
 }
 h4.hmeee{
   font-size: 1em;
